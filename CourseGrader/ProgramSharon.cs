@@ -24,7 +24,6 @@ namespace CourseGrader
             foreach (int item in arr)
             {
                 sum += item;
-
             }
             average = sum / arr.Length;
             if (average >= 70)
